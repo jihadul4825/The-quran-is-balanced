@@ -16,14 +16,14 @@ The Python script calculates:
 
 ## 📊 Results
 
-| Metric | Result |
-|--------|--------:|
-| Count of even (serial + verses) sums | 57 |
-| Count of odd (serial + verses) sums | 57 |
-| Sum of [serial + verses] in even Surahs | 6236 |
-| Sum of [serial + verses] in odd Surahs | 6555 |
-| Total verses in Quran | 6236 |
-| Sum of all Surah serials | 6555 |
+| Metric | Result | Examples |
+|--------|--------:|--------|
+| Count of even (serial + verses) sums | 57 | `Count` (2+286=288), (4+176=180), (16+128=144) |
+| Count of odd (serial + verses) sums | 57 | `Count` (3+200=203), (5+120=125), (33+73=106) |
+| Sum of [serial + verses] in even Surahs | 6236 | `Add` (2+286)+(4+176)+... |
+| Sum of [serial + verses] in odd Surahs | 6555 | `Add` (3+200)+(5+120)+... |
+| Total verses in Quran | 6236 | Fixed total |
+| Sum of all Surah serials | 6555 | `Add all serial numbers`  1+2+3+.....+114 |
 
 ## 🧠 Insights
 

@@ -41,9 +41,9 @@ for i,j in surahs:
         o_count+=1
         o_sum+=sum
 
-print(f"Count [serial+verses] of even sums: {e_count}")  #Examples (2+286), (4+176), (6+165)
-print(f"Count [serial+verses] of odd sums: {o_count}")  #Examples (1+7), (3+200), (5+120)
+print(f"Count [serial+verses] of even sums: {e_count}")  #count (2+286=288), (4+176=180), (16+128=144)
+print(f"Count [serial+verses] of odd sums: {o_count}")  #count (3+200=203), (5+120=125), (33+73=106)
 print(f"The sum of the verses of the Surah of the Quran: {total_verses_of_quran}") # total verses of quran = 6236
-print(f"Sum of [serial+verses] in even-numbered Surahs: {e_sum}")  #Examples (2+286)+(4+176)+(6+165)
-print(f"Sum of [serial+verses] in odd-numbered Surahs: {o_sum}")  #Examples (1+7)+(3+200)+(5+120)
-print(f"The sum of the serial numbers of all surahs: {all_serial_sum}") #Examples 1+2+3+4+5+6+7
+print(f"Sum of [serial+verses] in even-numbered Surahs: {e_sum}")  #Add (2+286)+(4+176)+...
+print(f"Sum of [serial+verses] in odd-numbered Surahs: {o_sum}")  #Add (3+200)+(5+120)+...
+print(f"The sum of the serial numbers of all surahs: {all_serial_sum}") #add  1+2+3+...+114
